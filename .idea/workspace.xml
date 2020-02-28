@@ -90,7 +90,7 @@
       <workItem from="1582541585011" duration="22717000" />
       <workItem from="1582897803299" duration="514000" />
       <workItem from="1582898752085" duration="352000" />
-      <workItem from="1582899562565" duration="1462000" />
+      <workItem from="1582899562565" duration="2629000" />
     </task>
     <servers />
   </component>
@@ -218,5 +218,9 @@
       <screen x="-1009" y="-1057" width="1920" height="980" />
     </state>
     <state width="600" height="424" key="javadoc.popup/911.-1057.1920.1057/-1009.-1057.1920.980/0.23.1792.1097@-1009.-1057.1920.980" timestamp="1582542274179" />
+    <state x="561" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1582901238490">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="249" width="670" height="676" key="search.everywhere.popup/911.-1057.1920.1057/-1009.-1057.1920.977/0.23.1792.1097@0.23.1792.1097" timestamp="1582901238490" />
   </component>
 </project>
