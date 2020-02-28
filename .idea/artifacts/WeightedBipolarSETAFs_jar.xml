@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WeightedBipolarSETAFs:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WeightedBipolarSETAFs_jar</output-path>
+    <root id="archive" name="WeightedBipolarSETAFs.jar">
+      <element id="module-output" name="WeightedBipolarSETAFs" />
+    </root>
+  </artifact>
+</component>
