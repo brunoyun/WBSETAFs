@@ -41,7 +41,7 @@ public class Argument {
 
     @Override
     public String toString(){
-        return description+"[IS="+ inStrength+"]";
+        return description+"[w="+ inStrength+"]";
     }
 
     public HashSet<HashSet<Argument>> getListOfattackers() {

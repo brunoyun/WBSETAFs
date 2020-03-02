@@ -18,13 +18,13 @@ public class Relation {
     }
 
     public String toString(){
-        String result="[";
+        String result="[ ";
         for(Argument a : Origin)
             result+=a.getDescription()+" ";
         if(relationType)
-            result+="]->"+target.getDescription()+" [IS:"+inStrength+"]";
+            result+="]->"+target.getDescription()+" [w:"+inStrength+"]";
         else
-            result+="]=>"+target.getDescription()+" [IS:"+inStrength+"]";
+            result+="]=>"+target.getDescription()+" [w:"+inStrength+"]";
         return result;
     }
 
