@@ -2,6 +2,7 @@ package abdn.functions;
 
 import abdn.semantics.DFQuad;
 import abdn.semantics.Euler;
+import abdn.semantics.Sigmoid;
 import abdn.structure.Argument;
 import abdn.structure.Relation;
 import abdn.structure.Setaf;
@@ -31,8 +32,13 @@ public class WBSETAF {
 
             DFQuad df = new DFQuad();
             df.Compute(AF, 100, 0.0001);
-        }
 
+            Sigmoid sd = new Sigmoid();
+            sd.Compute(AF, 100, 0.001);
+        }
+        else{
+            System.out.println("Please enter the path to the ASPARTIX file.");
+        }
 
 
     }

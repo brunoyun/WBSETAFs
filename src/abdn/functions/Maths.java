@@ -15,14 +15,28 @@ public class Maths {
         if(! X.isEmpty()){
             Argument minimumElt = X.iterator().next();
             for(Argument a: X){
-                if(a.getInStrength()  < minimumElt.getInStrength())
+                if(scores.get(a)  < scores.get(minimumElt))
                     minimumElt = a;
             }
-            return minimumElt.getInStrength();
+            return scores.get(minimumElt);
         }
         else
             return 0.0;
     }
 
+    public static double max(HashMap<HashSet<Argument>, Double> scores){
+
+
+        if(! scores.keySet().isEmpty()){
+            double result = scores.get(scores.keySet().iterator().next());
+            for(HashSet<Argument> X : scores.keySet()){
+                if(scores.get(X) > result)
+                    result = scores.get(X);
+            }
+            return result;
+        }
+        else
+            return 0.0;
+    }
 
 }
